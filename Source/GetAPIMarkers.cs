@@ -14,16 +14,17 @@ namespace GooglePlayServicesTest.Source
 {
     class GetAPIMarkers
     {
-
-        public Array Tags { get; set; }
-        public Array Years { get; set; }
-        public Array FileName { get; set; }
-        public string Attractions { get; set; }
-        public string AttractId { get; set; }
-        public string Address { get; set; }
-        public string Headline { get; set; }
-        public string Desscription { get; set; }
-        public string Subjects { get; set; }
+        public List<string> years { get; set; }
+        public List<string> tags { get; set; }
+        public List<object> filesNames { get; set; }
+        public string _id { get; set; }
+        public string attractId { get; set; }
+        public string headline { get; set; }
+        public string description { get; set; }
+        public string address { get; set; }
+        public string latitude { get; set; }
+        public string longitude { get; set; }
+        public int __v { get; set; }
 
     }
 }

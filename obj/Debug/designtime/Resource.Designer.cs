@@ -1989,6 +1989,9 @@ namespace GooglePlayServicesTest
 			// aapt resource value: 0
 			public static int options_demo = 0;
 			
+			// aapt resource value: 0
+			public static int Order66 = 0;
+			
 			// aapt resource value: 1
 			public static int place_autocomplete_fragment = 1;
 			
